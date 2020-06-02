@@ -1,4 +1,7 @@
-body{
-    margin: 0;
-    background-color: blue;
-}
+@import './Vars.scss';
+
+body {
+    margin: 0px;
+    background-color: $main-color;
+    font-family: $theme-font;
+  }
